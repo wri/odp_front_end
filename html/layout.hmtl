@@ -16,7 +16,7 @@
         </li>
     </ul>
   </div>
-    
+
   <!-- MAIN APPS -->
   <div class="main-apps">
   <div class="inner">
@@ -26,7 +26,7 @@
             <div class="icon">
               <svg><use xlink:href="#shape-relevant"></use></svg>
             </div>
-            <h3>FEATURED DATA SETS</h3>            
+            <h3>FEATURED DATA SETS</h3>
           </a>
     </div>
     <div class="col col6">
@@ -34,7 +34,7 @@
             <div class="icon">
               <svg><use xlink:href="#shape-recent"></use></svg>
             </div>
-            <h3>BROWSE ALL DATA</h3>            
+            <h3>BROWSE ALL DATA</h3>
           </a>
     </div>
   </div>
@@ -112,13 +112,13 @@
             <div class="col">
                 <div class="card">
                     <header>
-                        <h2>Submit a Story</h2>
+                        <h2>Share your Story</h2>
                     </header>
                     <div class="content">
-                        <p>Add a story to the GFW Interactive Map.</p>
+                        <p>Take this short survey to tell us how you use GFW data.</p>
                     </div>
                     <footer>
-                        <a href="http://www.globalforestwatch.org/stories/new" class="btn dark medium">Submit Story</a>
+                        <a href="https://docs.google.com/forms/d/111UIgxWAnEZ5ivGpDalEPA83BbvaVHNgvrZVvM_k9Lc/viewform" class="btn dark medium">Launch Survey</a>
                     </footer>
                 </div>
             </div>
