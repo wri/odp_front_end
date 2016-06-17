@@ -3748,3 +3748,69 @@ html {
 html {
     font-family: sans-serif
 }
+
+._63f9425c45404c36a23495ed7bef1314 .download-menu *:not(:last-child) {display:none !important;}
+
+
+.survey-modal {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+}
+
+.survey-modal.-active {
+    display: block;
+}
+
+.survey-modal .survey-modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.survey-modal .survey-modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: auto;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    background: #FFF;
+}
+
+.survey-modal .survey-modal-content .card {
+    position: relative;
+    padding: 35px 25px 100px;
+    text-align: center;
+    overflow: hidden
+}
+
+.survey-modal .survey-modal-content .card header h2 {
+    padding: 0 0 15px;
+    font-weight: 400 !important;
+    font-size: 21px;
+    color: #555;
+    text-transform: uppercase
+}
+
+.survey-modal .survey-modal-content .card .content p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.25
+}
+
+.survey-modal .survey-modal-content .card a:hover {
+    background: #000;
+    text-decoration: none
+}
