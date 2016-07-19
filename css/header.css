@@ -3762,7 +3762,9 @@ html {
 ._20398d4dc36e47bd92b559786670f270_1 .download-menu *:not(:last-child) {display:none !important;} /*oil palm*/
 ._8a405466bff2441794628fc5b845fadd_3 .download-menu *:not(:last-child) {display:none !important;} /*managed forests*/
 ._44bbf06379f545daa149ee7b237b9e18_1 .download-menu *:not(:last-child) {display:none !important;} /*Canada forest tenures*/
-._76d3c6a26c9c453595fd86a1de5228df_0 .download-menu *:not(:last-child) {display:none !important;} /*GLAD Alerts*/
+._76d3c6a26c9c453595fd86a1de5228df_0 .download-menu:last-child .kml {display:none !important;}  /*GLAD Alerts*/
+._76d3c6a26c9c453595fd86a1de5228df_0 .download-menu:last-child .zip {display:none !important;}  /*GLAD Alerts*/
+._76d3c6a26c9c453595fd86a1de5228df_0 .download-menu:last-child .csv {display:none !important;}  /*GLAD Alerts*/
 
 
 .survey-modal {
